@@ -1,3 +1,5 @@
+I FORGOT TO LOGOUT THE ACCOUNT OF MY BROTHER IN VSCODE.. WHEN I COMMITED, ITS NAME APPEARED.
+
 # React/Next.js Lajera Project
 
 This project demonstrates fundamental concepts in React and Next.js, as well as basic JavaScript exercises for learning purposes.
