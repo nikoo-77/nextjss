@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Fundamentals - Lajera</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    h2 { margin-top: 2rem; }
+    .section { margin-bottom: 2rem; }
+    .output { background: #f4f4f4; padding: 1em; border-radius: 5px; margin-top: 0.5em; }
+    button { margin-top: 0.5em; }
+  </style>
+</head>
+<body>
+  <h1>JS Fundamentals: Lajera Exercises</h1>
+
+  <div class="section">
+    <h2>Variables, Functions, Arrays, and Objects</h2>
+    <div id="variables-output" class="output"></div>
+    <button onclick="showVariables()">Show Example</button>
+  </div>
+
+  <div class="section">
+    <h2>DOM Manipulation Exercises</h2>
+    <div id="dom-output" class="output">This text will change!</div>
+    <button onclick="changeDomText()">Change Text</button>
+    <button onclick="resetDomText()">Reset</button>
+  </div>
+
+  <div class="section">
+    <h2>Event Handling Basics</h2>
+    <button id="event-btn">Click me!</button>
+    <div id="event-output" class="output">Waiting for button click...</div>
+  </div>
+
+  <script src="lajera.js"></script>
+</body>
+</html>
